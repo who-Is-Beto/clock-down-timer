@@ -16,7 +16,7 @@ simplyCountdown('#count', {
   inlineClass: 'counts', //inline css span class in case of inline = true
   // in case of inline set to false
   enableUtc: false, //Use UTC or not - default : false
-  onEnd: function () { return; }, //Callback on countdown end, put your own function here
+  onEnd: function () { alert('let`s fucking gooooooo') }, //Callback on countdown end, put your own function here
   refresh: 1000, // default refresh every 1s
   sectionClass: 'card', //section css class
   amountClass: 'card__number', // amount css class
