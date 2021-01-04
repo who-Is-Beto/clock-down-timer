@@ -22,7 +22,7 @@ html{
 }
 
 body{
-  background: url('https://live.staticflickr.com/65535/50801449927_3bc21f0fbd_h.jpg') no-repeat top center, url('https://live.staticflickr.com/65535/50801449782_401f8d6ece_h.jpg') no-repeat bottom right, var(--background);
+  background: url('../images/bg-stars.svg') no-repeat top center, url('../images/pattern-hills.svg') no-repeat bottom right, var(--background);
   color: var(--White);
   margin: 0;
   padding: 0;
@@ -184,7 +184,7 @@ div{
 @media screen and (min-width: 650px) {
   
   body{
-    background: url('https://live.staticflickr.com/65535/50801449927_3bc21f0fbd_h.jpg') no-repeat top center, var(--background);
+    background: url('../images/bg-stars.svg') no-repeat top center, var(--background);
   }
 
   .main__text{
@@ -202,7 +202,7 @@ div{
   }
 
   .footer{
-    background-image: url('https://live.staticflickr.com/65535/50801449782_401f8d6ece_h.jpg');
+    background-image: url('../images/pattern-hills.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
