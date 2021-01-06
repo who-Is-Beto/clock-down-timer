@@ -1,7 +1,16 @@
+let date = new Date()
+
+let challengeDay = date.getDate() + 14
+let challengeMonth = date.getMonth() + 1
+let challengeYear = date.getFullYear()
+
+
+
+
 simplyCountdown('#count', {
-  year: 2021, // required
-  month: 2, // required
-  day: 1, // required
+  year: challengeYear, // required
+  month: challengeMonth, // required
+  day: challengeDay, // required
   hours: 0, // Default is 0 [0-23] integer
   minutes: 0, // Default is 0 [0-59] integer
   seconds: 0, // Default is 0 [0-59] integer
@@ -16,7 +25,7 @@ simplyCountdown('#count', {
   inlineClass: 'counts', //inline css span class in case of inline = true
   // in case of inline set to false
   enableUtc: false, //Use UTC or not - default : false
-  onEnd: function () { alert('let`s fucking gooooooo') }, //Callback on countdown end, put your own function here
+  onEnd: function () { alert('HOW? :o') }, //Callback on countdown end, put your own function here
   refresh: 1000, // default refresh every 1s
   sectionClass: 'card', //section css class
   amountClass: 'card__number', // amount css class
