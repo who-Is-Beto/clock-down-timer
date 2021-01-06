@@ -24,4 +24,4 @@ Your users should be able to:
 
 ¡Follow me on Youtube! https://www.youtube.com/channel/UCehw60DY3v3t5ez7mYIbYmQ
 
- I'd be so thankful if you see it and givme and star ⭐ [See the project by yourself](https://who-is-beto.github.io/clock-down-timer/)
+ I'd be so thankful if you see it and give me and star ⭐ [See the project by yourself](https://who-is-beto.github.io/clock-down-timer/)
